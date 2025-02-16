@@ -14,6 +14,7 @@ function App() {
           <h1 class='website-name'>
             eyeSpy
           </h1>
+          <img src='./assets/regularEyeExam.jpg' alt="regularEyeExams" className="eye-exam-image" />
           <p>eyeSpy that you need an eyetest!</p>
           <button>Start Your Eye Test Today</button>
         </card>
