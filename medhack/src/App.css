@@ -25,10 +25,8 @@ body {
   background-repeat: no-repeat; /* Prevents the image from repeating */
   height: 100vh; /* Makes the body take up the full height of the viewport */
   /* opacity: 0.5; Adjust opacity to make the image slightly transparent */
-  margin: 0; /* Removes any default margin */
+  margin: 200px 0px 0px 0px; /* Removes any default margin */
 }
-
-
 
 
 @keyframes logo-spin {
@@ -54,4 +52,6 @@ body {
   color: #888;
 }
 
-
+.website-name {
+  color: #588157
+}
