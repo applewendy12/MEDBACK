@@ -30,7 +30,7 @@ function App() {
                             <div>
                                 <button onClick=
                                     {() => close()}>
-                                        Close modal
+                                        Close
                                 </button>
                             </div>
                         </div>

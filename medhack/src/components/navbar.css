@@ -30,5 +30,6 @@
   
 .nav-links li a:hover {
     background-color: #588157;
+    color: beige;
     border-radius: 20px;
   }
