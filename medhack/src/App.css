@@ -5,18 +5,17 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+body {
+  background-image: url('./assets/eye1.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Makes the body take up the full height of the viewport */
+  /* opacity: 0.5; Adjust opacity to make the image slightly transparent */
+  margin: 200px 0px 0px 0px; /* Removes any default margin */
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 
 @keyframes logo-spin {
   from {
@@ -41,4 +40,24 @@
   color: #888;
 }
 
+.website-name {
+  color: #588157
+}
 
+.content {
+  background-color: white;
+  height: 500px;
+  width: 1000px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+
+}
+
+.modal {
+  max-width: 1280px;
+  place-items: center;
+  text-align: center;
+
+}

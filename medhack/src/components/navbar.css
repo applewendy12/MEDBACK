@@ -3,6 +3,7 @@
   justify-content: space-between; 
   align-items: center; 
   color:  #588157;
+  background-color: #f5ebe0;
   padding: 5px 5px;
   position: fixed; 
   top: 0;
@@ -28,6 +29,20 @@
   }
   
 .nav-links li a:hover {
-    background-color: #ccd5ae;
+    background-color: #588157;
+    color: beige;
     border-radius: 20px;
   }
+
+.logo {
+  height: 8em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #588157);
+  cursor: pointer;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #588157);
+}
